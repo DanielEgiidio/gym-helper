@@ -6,7 +6,7 @@ import HeadbannerImage from "../assets/images/banner.png";
 const HeadBanner = () => {
   return (
     <Box
-      sx={{ mt: { lg: "212px", sx: "70px" }, ml: { sm: "50px" } }}
+      sx={{ mt: { lg: "200px", sx: "70px" }, ml: { sm: "50px" } }}
       position="relative"
       p="20px"
     >
@@ -25,7 +25,7 @@ const HeadBanner = () => {
         <br /> e estética desejada
       </Typography>
 
-      <Typography fontSize="22px" lineHeight="35px" mb={4}>
+      <Typography fontSize="22px" lineHeight="35px" mb={3}>
         Confira os exercícios mais eficazes
       </Typography>
 
@@ -47,8 +47,9 @@ const HeadBanner = () => {
           display: { lg: "block", xs: "none" },
         }}
         fontSize="200px"
+        pt="130px"
       >
-        Let's Go
+        Let's Go!
       </Typography>
 
       <img src={HeadbannerImage} alt="logo" className="hero-banner-img" />

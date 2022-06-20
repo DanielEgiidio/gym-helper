@@ -29,12 +29,22 @@ const Navbar = () => {
           style={{
             textDecoration: "none",
             color: "#000",
-            borderBottom: "2px solid #007fff ",
+            padding: "8px",
+            borderRadius: "10px",
+            border: "2px solid #007fff ",
           }}
         >
           Home
         </Link>
-        <a href="#exercises" style={{ textDecoration: "none", color: "#000 " }}>
+        <a
+          href="#exercises"
+          style={{
+            textDecoration: "none",
+            color: "#000",
+            padding: "8px",
+            borderRadius: "10px",
+          }}
+        >
           Exercícios
         </a>
       </Stack>
