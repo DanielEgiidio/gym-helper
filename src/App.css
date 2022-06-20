@@ -59,7 +59,9 @@ body {
   top: 0px;
   width: 700px;
   height: 900px;
+  object-fit: cover;
   margin-top: -330px;
+  border-radius: 0 0 20px 20px;
 
 }
 
