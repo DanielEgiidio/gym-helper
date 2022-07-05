@@ -49,6 +49,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         fontWeight={700}
         mb="50px"
         textAlign="center"
+        color="#373737"
         sx={{ fontSize: { lg: "44px", sx: "30px" } }}
       >
         Exercícios incríveis que você <br />

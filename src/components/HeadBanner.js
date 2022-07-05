@@ -18,6 +18,7 @@ const HeadBanner = () => {
         fontWeight={700}
         sx={{ fontSize: { lg: "40px", xs: "36px" } }}
         mb="23px"
+        color="#373737"
         mt="30px"
       >
         Onde lhe ajudaremos a
@@ -48,6 +49,7 @@ const HeadBanner = () => {
         }}
         fontSize="200px"
         pt="130px"
+        color="#373737"
       >
         Let's Go!
       </Typography>

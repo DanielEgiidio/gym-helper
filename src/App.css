@@ -84,12 +84,17 @@ body {
 
 .bodyPart-card {
   transform: scale(1, 1);
-  transition: 0.3s all ease-in-out;
 }
 
 .exercise-card:hover,
 .bodyPart-card:hover {
   transform: scale(1.1, 1.1);
+}
+
+.exercises:hover,
+.home:hover {
+  background-color: #007fff;
+  color: #fff !important;
 }
 
 .search-btn:hover {

@@ -16,7 +16,7 @@ const Navbar = () => {
       }}
       px="20px"
     >
-      <Link to="/">
+      <Link to="/" className="logo">
         <img
           src={logoIcon}
           alt="logo"
@@ -26,9 +26,10 @@ const Navbar = () => {
       <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
         <Link
           to="/"
+          className="home"
           style={{
             textDecoration: "none",
-            color: "#000",
+            color: "#373737",
             padding: "8px",
             borderRadius: "10px",
             border: "2px solid #007fff ",
@@ -38,11 +39,13 @@ const Navbar = () => {
         </Link>
         <a
           href="#exercises"
+          className="exercises"
           style={{
             textDecoration: "none",
-            color: "#000",
+            color: "#373737",
             padding: "8px",
             borderRadius: "10px",
+            border: "2px solid #007fff ",
           }}
         >
           Exercícios
