@@ -12,8 +12,8 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     sx={
       bodyPart === item
         ? {
-            background: "#007fff",
-            borderRadius: "20px",
+            backgroundColor: "#007fff",
+            borderRadius: "10px",
             color: "#FFF",
             width: "270px",
             border: "1px solid #007fff",
@@ -22,11 +22,11 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
             gap: "47px",
           }
         : {
-            background: "#fff",
-            borderRadius: "20px",
+            borderRadius: "10px",
             width: "270px",
+            color: "#373737",
             height: "282px",
-            border: "1px solid #007fff",
+            border: "2px solid #007fff",
             cursor: "pointer",
             gap: "47px",
           }
